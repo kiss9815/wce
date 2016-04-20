@@ -34,7 +34,9 @@ app.use('/less', express.static('public/less'))
 app.use('/switcher', express.static('public/switcher'))
 
 
-
+app.get('/wce', function(req, res){
+  res.render('blogwce');
+});
 
 
 
