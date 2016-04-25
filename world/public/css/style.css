@@ -2,6 +2,8 @@ html,
 body {
   height: 100%;
 }
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #000;
@@ -9,6 +11,14 @@ body {
   line-height: 1.8em;
   color: #f1f1f1;
 }
+
+#map {
+        width: 600px;
+        height: 400px;
+
+        /*margin-left: 15%;*/
+      }
+
 h1,
 h2,
 h3,
@@ -106,6 +116,10 @@ blockquote small {
 /* ==================================================
 	background-color
 ====================================================*/
+.wcebackground{
+  background-image: url(../img/bg2.jpg);
+}
+
 .dark-bg {
   background: #000;
 }
@@ -404,6 +418,7 @@ a.link:hover:after {
 .menu li {
   padding: 5px 20px;
 }
+/*fix*/
 .menu li a {
   color: #fff;
 }

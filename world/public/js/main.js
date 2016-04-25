@@ -106,8 +106,8 @@
 		if($('.slider-background').length > 0){
 			 $.backstretch([
 				  "img/bg4.jpg"
-				, "img/bg5.jpg"
-				, "img/bg2.jpg"
+				, "img/bg5.jpg",
+				 "img/bg2.jpg"
 			  ], {duration: 4000, fade: 1000});
 		}		
 	});
